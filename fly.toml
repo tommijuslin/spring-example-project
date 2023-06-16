@@ -1,0 +1,14 @@
+# fly.toml app configuration file generated for patient-glitter-2064 on 2023-06-13T04:58:08+03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "patient-glitter-2064"
+primary_region = "ams"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
