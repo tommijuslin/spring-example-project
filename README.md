@@ -1,5 +1,7 @@
 # Simple button
 
+https://patient-glitter-2064.fly.dev/
+
 ## How to start
 
 Make sure you have java 8 installed
